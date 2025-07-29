@@ -1,45 +1,61 @@
-# Mi Casa
+# 🛒 Mi Casa – Home & Kitchen Shopping App
 
-**Mi Casa** is a high-end e-commerce app for home and kitchenware lovers. Users can browse stylish products, add them to a cart, and even upload a photo of their purchase to show off their style.
+A sleek and modern e-commerce app where users can:
 
-### Features
+- Browse curated home and kitchen products
+- Add items to their cart and proceed to checkout
+- Upload purchase photos to the #MiCasa community feed
+- Enjoy a clean, intuitive interface
 
-- Browse curated products
-- Add to cart and checkout
-- Upload user purchase photos to the #MiCasa feed
-- Clean and modern design
-- Built with React and Supabase
+---
 
-### Tech Stack
+## 🚀 Tech Stack
 
-- React with Vite
-- Supabase for backend and image storage
-- React Router for navigation
-- Phosphor Icons
-- Hosted on GitHub Pages
+- **React** with **Vite**
+- **Local Storage** for cart and user data
+- **React Router** for navigation
+- **Phosphor Icons**
+- **Hosted on GitHub Pages**
 
-### Preview
+---
 
-_Add a screenshot or a screen recording of the app in action here._
+## 📸 Preview
 
-### Lessons Learned
+_Coming Soon!_
 
-- Working with Supabase
-- State management and routing
-- Real-world UI design decisions
+---
 
+## 💡 Lessons Learned
 
-### Backend Monitoring
+- Managing state and routing in React
+- UI/UX decisions for real-world shopping experiences
+- Replacing backend services (Supabase → local storage)
+- Handling file uploads and previews locally
 
-To keep the backend running smoothly on Supabase's free tier, this project includes a public heartbeat file (ping.txt) that's monitored by UptimeRobot. The monitor, named Supabase Keep Productive, helps ensure the database remains active and responsive even during periods of low frontend traffic.
+---
 
+## ⚙️ Setup and Run Locally
 
-### Setup and Run
+1. Clone the repository
+   `git clone https://github.com/deniseleamoon.com/micasa.git`
+2. Navigate to the project folder
+   `cd micasa`
+3. Install dependencies
+   `npm install`
+4. Run the development server
+   `npm run dev`
 
+---
 
-```bash
-npm install
-npm run dev
+## 📝 Notes
 
+- This project originally used Supabase for backend and image storage, but has since been transitioned to **local storage** for a simpler, fully client-side experience.
 
+## 🖼️ Image Credits
 
+Product images are sourced from [Williams-Sonoma](https://www.williams-sonoma.com) and are used for educational and non-commercial purposes only.
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this code with attribution.
