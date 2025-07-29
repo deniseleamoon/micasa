@@ -1,0 +1,139 @@
+body,
+html {
+  height: 100%;
+}
+
+.shoppingBag {
+  height: auto;
+}
+
+.userImages {
+  background-color: rgb(223, 222, 222);
+  width: 100%;
+}
+.checkoutContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.countButton {
+  background-color: rgb(160, 19, 116);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+  font-size: 1.1em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.countButton:hover {
+  background-color: rgb(127, 3, 83);
+  color: rgb(255, 253, 254);
+  border: 1px solid rgb(248, 237, 245);
+  box-sizing: border-box;
+}
+
+.countButton:active {
+  font-weight: bold;
+  background-color: rgb(253, 251, 251);
+  color: teal;
+  border: 2px solid teal;
+  box-sizing: border-box;
+}
+
+.countInputDisplay {
+  width: 1.9rem;
+  height: 35px;
+}
+
+.continueShoppingButton,
+.checkoutButton {
+  background-color: rgb(160, 19, 116);
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 14px 12px;
+  width: 14rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.continueShoppingButton:hover {
+  background-color: rgb(253, 251, 251);
+  color: rgb(67, 5, 47);
+  border: 2px solid rgb(121, 7, 85);
+  box-sizing: border-box;
+}
+
+.continueShoppingButton:active {
+  font-weight: bold;
+  background-color: rgb(253, 251, 251);
+  color: teal;
+  border: 2px solid teal;
+  box-sizing: border-box;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cartItemsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 1px solid rgb(206, 206, 206);
+  margin: 0 auto;
+  box-shadow: 0 1px 4px 2px rgba(87, 87, 87, 0.16);
+}
+
+.emptyCartMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  gap: 10px;
+  height: 100hv;
+  margin-bottom: 5px;
+}
+
+div .emptyCartButton {
+  background-color: rgb(160, 19, 116);
+  color: white;
+  border: none;
+  padding: 5px 18px;
+  text-align: center;
+  width: 210px;
+  height: 62px;
+  font-size: 1em;
+  font-weight: 200;
+  border-radius: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.emptyCartButton:hover {
+  background-color: rgb(206, 33, 151);
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+.subtotal {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

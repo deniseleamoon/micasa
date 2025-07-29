@@ -1,0 +1,102 @@
+body,
+html {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+
+footer {
+  background-color: rgb(26, 25, 25);
+  color: white;
+  width: 100%;
+  padding: 0.7rem;
+  position: relative;
+  bottom: 0;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.enterEmail {
+  width: 20em;
+  font-size: 1em;
+  text-indent: 8px;
+  padding: 10px 0 10px 0;
+  border: none;
+}
+.handleButton {
+  border: none;
+  padding: 10px 8px 10px 8px;
+  font-size: 1em;
+  background-color: teal;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.emailSales {
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.followUs {
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.copyRightLogo {
+  display: block;
+  padding-left: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.socialMediaLinksContainer {
+  display: flex;
+  gap: 1em;
+  cursor: pointer;
+}
+
+.facebookLogo:hover {
+  color: rgb(9, 175, 175);
+}
+
+.instagramLogo:hover {
+  color: fuchsia;
+}
+
+.twitterLogo:hover {
+  color: rgb(61, 61, 251);
+}
+
+.youtubeLogo:hover {
+  color: rgb(245, 117, 19);
+}
+
+.pinterestLogo:hover {
+  color: red;
+}

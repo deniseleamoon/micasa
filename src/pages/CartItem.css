@@ -1,0 +1,90 @@
+.cartItemContainer {
+  display: flex;
+  border: 1px sold #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  gap: 50px;
+  border: 2px solid rgb(215, 212, 212);
+  align-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cartImage {
+  width: 240px;
+  height: 240px;
+  border: 1px solid rgb(215, 212, 212);
+  padding: 0.3rem;
+  object-fit: contain;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.cartItemDetails {
+  flex-grow: 1;
+}
+
+.cartTitle {
+  line-height: 1.2em;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.cartPrice,
+.totalPrice {
+  line-height: 1.2em;
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.countHandler {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.countButton {
+  background-color: rgb(160, 19, 116);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.countButton:hover {
+  background-color: rgb(127, 3, 83);
+  color: rgb(255, 253, 254);
+  border: 1px solid rgb(248, 237, 245);
+  box-sizing: border-box;
+}
+
+.countButton:active {
+  font-weight: bold;
+  background-color: rgb(253, 251, 251);
+  color: teal;
+  border: 2px solid teal;
+  box-sizing: border-box;
+}
+
+.addDeleteItemButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.deleteItemButton,
+.addToFavoritesButton {
+  border: none;
+  border-bottom: 1px solid teal;
+  margin-top: 20px;
+  padding: 6px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.deleteItemButton:hover {
+  background-color: rgb(160, 19, 116);
+  color: white;
+  border: none;
+}
