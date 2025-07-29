@@ -9,6 +9,13 @@ A sleek and modern e-commerce app where users can:
 
 ---
 
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and distribute this code with attribution.
+
+---
+
 ## 🚀 Tech Stack
 
 - **React** with **Vite**
@@ -54,8 +61,3 @@ _Coming Soon!_
 ## 🖼️ Image Credits
 
 Product images are sourced from [Williams-Sonoma](https://www.williams-sonoma.com) and are used for educational and non-commercial purposes only.
-
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).  
-You are free to use, modify, and distribute this code with attribution.
